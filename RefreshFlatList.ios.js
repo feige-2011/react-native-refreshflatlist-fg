@@ -25,7 +25,7 @@ import Util from './util'
 import Item from './Item'
 const { height, width } = Dimensions.get('window');
 
-// 0: 未刷新; 1: 到达刷新点; 2: 刷新中; 3: 刷新完成
+// 0: 未刷新; 1: 到达刷新点; 2: 刷新中; 3: 刷新完成4:22
 export const RefreshState = {
   pullToRefresh: 0,
   releaseToRefresh: 1,
