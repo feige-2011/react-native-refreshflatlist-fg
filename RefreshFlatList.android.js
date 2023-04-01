@@ -80,7 +80,7 @@ export default class FlatListTest extends Component {
       footerMsg: FooterText.pushToRefresh,
       toRenderItem: true
     }
-    this._marginTop = new Animated.Value()
+    this._marginTop = new Animated.Value(0)
     this._scrollEndY = 0
     this.headerHeight = 60 // Default refreshView height
     this.isAnimating = false // Controls the same animation not many times during the sliding process
